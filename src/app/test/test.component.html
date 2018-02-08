@@ -1,0 +1,4 @@
+<div>
+    <a class="login" *ngIf="!(auth.hasLoggedIn | async)">登录</a>
+    <a class="login" *ngIf="auth.hasLoggedIn | async">退出</a>
+</div>
